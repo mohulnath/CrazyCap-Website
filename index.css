@@ -3,11 +3,31 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+#about,
+#products,
+#How,
+#test,
+#resource{
+    scroll-margin-top: 20px; 
+}
+
+#sub{
+    scroll-margin-top: 50px; 
+}
+
+.bas-nav a{
+    text-decoration: none;
+    color: #1E2629;
 }
 
 .main {
     width: 100%;
     height: 100vh;
+    margin-top: 100px;
 }
 
 .nav-bar {
@@ -16,6 +36,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 9999999;
 }
 
 .bas-nav {
